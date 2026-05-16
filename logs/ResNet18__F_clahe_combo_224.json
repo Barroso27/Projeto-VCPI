@@ -4,7 +4,7 @@
   "test_acc": 0.9951702296120348,
   "test_loss": 0.021808179172232354,
   "epochs_run": 20,
-  "time_min": 99.58009379704794,
+  "time_min": 0.9048953175544738,
   "ckpt_path": "checkpoints\\ResNet18\\F_clahe_combo_224\\best.pt",
   "history": {
     "loss": [

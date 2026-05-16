@@ -8,8 +8,8 @@ curl.exe -L --progress-bar "$BASE_URL/train_images.zip" -o train_images.zip
 curl.exe -L --progress-bar "$BASE_URL/test_images.zip"  -o test_images.zip
 
 Write-Host "A extrair..."
-Expand-Archive -Path train_images.zip -DestinationPath train -Force
-Expand-Archive -Path test_images.zip  -DestinationPath test  -Force
+Expand-Archive -Path train_images.zip -DestinationPath training_images -Force
+Expand-Archive -Path test_images.zip  -DestinationPath test_images  -Force
 
 Write-Host "A limpar zips..."
 Remove-Item train_images.zip, test_images.zip
